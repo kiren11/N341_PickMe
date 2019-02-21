@@ -1,0 +1,77 @@
+<!doctype html>
+
+<!--TITLE: Pick me
+AUTHOR: Kiren Kaur
+PURPOSE: Learn about jquery
+ORIGINALLY CREATED ON: 03/28/2018
+LAST MODIFIED ON:  03/28/2018
+LAST MODIFIED BY: Kiren Kaur
+MODIFICATION HISTORY:
+03/28/2018 - Original Build-->
+
+<html lang="en">
+
+    <head>
+       <meta charset="utf-8">
+       <title> Pick Me </title>
+
+        <!-- link to css file -->
+       <link rel="stylesheet" href="pickme.css">
+    </head>
+
+  <body>
+
+    <h1> Pick Me </h1>
+
+    <br />
+
+    <!-- selection by tag -->
+    <button id = "button1"> By Tag </button>
+
+    <!-- selection by class -->
+    <button id = "button2"> By Class </button>
+
+    <!-- selection by id -->
+    <button id = "button3"> By ID </button>
+
+    <!-- multiple instructions -->
+    <button id = "button4"> Multiple Inst </button>
+
+    <!-- filtered by tag -->
+    <button id = "button5"> Filtered By Tag</button>
+
+    <!-- filtered by class -->
+    <button id = "button6"> Filtered By Class </button>
+
+    <!-- filtered by id -->
+    <button id = "button7"> Filtered by ID </button>
+
+    <!-- paragraph tags -->
+    <p> Captain Hook </p>
+    <p> Co-Captain Black Eye Patch </p>
+    <p> Navigator </p>
+
+    <!-- list of crew members -->
+    <ul>
+        <li id = "SailorJones" class = "Sailor"> Sailor Jones </li>
+
+        <li id = "SailorKates" class = "Sailor"> Sailor Kates </li>
+
+        <li id = "SailorJesters" class = "Sailor"> Sailor Jesters </li>
+
+        <li id = "DeckWasher" class = "Cleaner"> Deck Washer </li>
+
+        <li id = "MapCoordinator" class = "Smart Guy"> Map Coordinator </li>
+    </ul>
+
+
+    <input type="button" value="Refresh Page" onClick="window.location.reload()">
+
+    <!-- jquery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script src="pickme.js"></script>
+
+  </body>
+
+</html>
